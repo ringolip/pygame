@@ -31,3 +31,6 @@ class Ship():
 
     def blitme(self):
         self.screen.blit(self.image, self.rect)#将图像绘制到指定位置
+
+    def center_ship(self):
+        self.center = self.screen_rect.centerx
